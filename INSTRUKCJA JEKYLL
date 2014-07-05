@@ -2,35 +2,39 @@ INSTRUKCJA DLA UBUNTU:
 
 >> INSTALACJA POTRZEBNYCH NARZEDZI
 
-1. Wykonujemy komendy aby poinstalowac narzedzia:
-	sudo apt-get update
-	sudo apt-get install git
-	sudo apt-get install ruby
-	sudo apt-get install rubygems-integration
-	sudo apt-get install ruby1.9.1-dev
-	sudo gem install jekyll
-	sudo gem install github-pages
-	sudo apt-get install nodejs
-	sudo apt-get install npm
-	sudo apt-get install bundler
+	1. Wykonujemy komendy aby poinstalowac narzedzia:
+		sudo apt-get update
+		sudo apt-get install git
+		sudo apt-get install ruby
+		sudo apt-get install rubygems-integration
+		sudo apt-get install ruby1.9.1-dev
+		sudo gem install jekyll
+		sudo gem install github-pages
+		sudo apt-get install nodejs
+		sudo apt-get install npm
+		sudo apt-get install bundler
 
-2. Tworzymy plik Gemfile komenda 'touch Gemfile' o zawartosci:
-	source 'http://rubygems.org'
-	gem 'github-pages'
+	2. Tworzymy plik Gemfile komenda 'touch Gemfile' o zawartosci:
+		source 'http://rubygems.org'
+		gem 'github-pages'
 
-3. W folderze 'celebes.github.io' uruchamiamy komende:
-	bundle update
+	3. W folderze 'celebes.github.io' uruchamiamy komende:
+		bundle update
 
 >> TWORZENIE NOWEGO BLOGA JEKYLL
 
-1. W folderze celebes.github.io odpalamy komende:
-	jekyll new myblog
+	1. W folderze celebes.github.io odpalamy komende:
+		jekyll new myblog
 
-2. Wchodzimy do tego folderu, wycinamy wszystko, wrzucamy do folderu celebes.github.io
-3. Usuwamy folder myblog
+	2. Wchodzimy do tego folderu, wycinamy wszystko, wrzucamy do folderu celebes.github.io
+	3. Usuwamy folder myblog
 
 >> URUCHAMIANIE JEKYLL
 
-1. w folderze celebes.github.io 'bundle exec jekyll serve --detach'
-2. Teraz wystarczy wejsc w przegladarke i wejsc pod adres 'http://localhost:4000'
+	1. w folderze celebes.github.io 'bundle exec jekyll serve --detach'
+	2. Teraz wystarczy wejsc w przegladarke i wejsc pod adres 'http://localhost:4000'
 
+>>> ZAMYKANIE JEKYLL
+
+	1. Jeśli JEKYLL jest uruchomiony w konsoli, to można go zabić wciskając CTRL + C
+	2. Jeśli nie jest, to należy wpisać komendę 'ps aux | grep jekyll', następnie 'kill -9 XYZ', gdzie XYZ to PID procesu JEKYLL
