@@ -1,12 +1,35 @@
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-baseurl: ""
-url: "http://yourdomain.com"
-twitter_username: jekyllrb
-github_username:  jekyll
+# General Jekyll Config
+highlighter: pygments
+url: http://celebes.github.io
+lsi: false
+exclude: [LICENSE, CNAME, README.md, .gitignore]
+timezone: Europe/Warsaw
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+# Theme customization - please change from the defaults!
+theme:
+  # Color for top bar, links, etc
+  highlight_color: '#06afa2'
+
+  # Profile links on the left sidebar, leave blank to ignore
+  social:
+    #github: Celebes
+    #bitbucket: philipj
+    #hacker_news: swanson
+    #stackexchange: 348619
+    #stackoverflow: 1644096
+    #twitter: _swanson
+    facebook: kgurniak
+    #tumblr: animalygifs
+    #linkedin: philipjagielski
+    #gplus: 110552447039675960964
+
+  # "Hi, I'm _______"
+  name: Krzysztof Gurniak
+  email: kris1337@gmail.com
+  tagline: "weak opinions, strongly held"
+
+  # Google Analytics key, leave blank to ignore
+  google_analytics_key: UA-xxxx-x
+
+  # Toggle "Postings are my own" disclaimer in footer
+  show_disclaimer: false

@@ -1,20 +1,12 @@
 ---
 layout: default
+title: Hi!
 ---
 
-<div class="home">
-
-  <h1>Posts</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div id="home">
+  <h2><i class="fa fa-home"></i> Welcome!</h2>
+  
+  <p>The only purpose of this welcome page is for me to have my blog at URL that ends with /blog/, which I think looks cool!
+  <br/><br/>
+  Hello, make yourself comfortable and don't forget to check other pages.</p>
 </div>

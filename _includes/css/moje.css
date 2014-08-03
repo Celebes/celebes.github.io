@@ -1,0 +1,30 @@
+#game-list > * {margin: 0; padding: 0;}
+ 
+#game-list ul {
+  list-style-type: none;
+  width: 100%;
+}
+ 
+#game-list h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+  margin: 0px;
+}
+ 
+#game-list li img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+ 
+#game-list li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+ 
+#game-list li {
+  padding: 10px;
+  overflow: auto;
+}
+ 
+#game-list li:hover {
+  background: #eee;
+  cursor: pointer;
+}

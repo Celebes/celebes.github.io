@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Krzysztof Gurniak - Piglethrower</title>
+  <meta name="author" content="Krzysztof Gurniak" />
+  <meta name="description" content="The blog of Krzysztof Gurniak" />
+  <link rel="canonical" href="http://celebes.github.io/games/piglethrower/" />
+
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="Krzysztof Gurniak" href="http://celebes.github.io/atom.xml" />
+
+  <link rel="stylesheet" href="/assets/css/all.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  
+  <style>
+	.content {
+		border: 0px;
+	}
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="sixteen columns content">
+      <div id="home">
+  <h1 style="text-align: center; font-weight: 900;">PIGLETHROWER</h1>
+  
+  <br/>
+  
+  <div style="text-align: center;">
+	<img title="It is just an image, scroll down to play the actual game!" src="/assets/images/piglethrower/piglethrower_header.png">
+  </div>
+  
+  <br/><br/>
+  
+  <h2>About Piglethrower</h2>
+  
+  <p>
+	<strong>Development time:</strong> 2 weeks
+	<br/>
+	<strong>Release date:</strong> June 2012
+	<br/><br/>
+	Piglethrower was my first game ever, I did it as a university project on 2nd year for "JTP" class ("Języki i Techniki Programowania", which can be translated to "Programming Languages and Techniques"), where we were learning programming in Java for the first time. I had little to no programming skills, even though I was already familiar with a little bit of C, C++ and OOP. I didn't even know what version control, unit testing, design patterns, software engineering, frameworks etc. were. I am surprised this game even works and of course its code quality sucks, but I still love it. I was relying heavily on "Black Art of Java Game Programming" book back then, which is awesome but a little bit outdated. It taught me how to use interfaces and other good practices, but as my codebase grow it became a total spaghetti.
+	
+	<br/><br/>
+	
+	Fun fact: at first I was planning to use my photoshopped head instead of a pig and the goal was to eat brains instead of apples. So it was supposed to be zombie-themed. But my professor said it is not allowed and that I had to came up with something more <em>serious</em>. So I came up with a piglet jumping around to epic sax guy! Eat that, professor! Below are sprites used in the very early stage of development:
+	<br/><br/>
+	
+	<div>
+		<table style="margin: auto;"> 
+			<tr>
+				<td style="overflow: hidden; width: 200px; text-align: center;"><img src="/assets/images/piglethrower/spadanie.gif"></td>
+				<td style="overflow: hidden; width: 200px; text-align: center;"><img src="/assets/images/piglethrower/spoczynek.gif"></td>
+				<td style="overflow: hidden; width: 200px; text-align: center;"><img src="/assets/images/piglethrower/trzymanie.gif"></td>
+			</tr>
+			<tr>
+				<td style="overflow: hidden; width: 200px; text-align: center;"><p style="font-size: small"><em>(old falling animation)</em></p></td>
+				<td style="overflow: hidden; width: 200px; text-align: center;"><p style="font-size: small"><em>(old idle animation)</em></p></td>
+				<td style="overflow: hidden; width: 200px; text-align: center;"><p style="font-size: small"><em>(old holding animation)</em></p></td>
+			</tr>
+		</table>	
+	</div>
+	
+	<br/>
+	
+	The rules of the game are simple - grab a pig by pressing a mouse button and throw it by moving the cursor and releasing the button. You have 10 moves, there are 10 apples and only 1 level. There is a small circular area around your character telling you how far you can move. After crossing it, the pig will be released automatically.
+	
+	<br/><br/>
+	
+	This game sucks in general - physics are a joke, collision detection is implemented so badly that you can literally move through walls, but it was a big achievement for me at the time and I am still proud of it. I particularly like the character - I have drawn and animated this pig myself and I think it looks good, especially the falling animation (you can even see little tears of fear in the corner of eyes):
+	<br/><br/><br/>
+	
+	<div>
+		<table style="margin: auto;"> 
+			<tr>
+				<td style="overflow: hidden; width: 200px; text-align: center;"><img src="/assets/images/piglethrower/spadanie_swinia.gif"></td>
+				<td style="overflow: hidden; width: 200px; text-align: center;"><img src="/assets/images/piglethrower/spoczynek_swinia.gif"></td>
+				<td style="overflow: hidden; width: 200px; text-align: center;"><img src="/assets/images/piglethrower/trzymanie_swinia.gif"></td>
+			</tr>
+			<tr>
+				<td style="overflow: hidden; width: 200px; text-align: center;"><p style="font-size: small"><em>(current falling animation)</em></p></td>
+				<td style="overflow: hidden; width: 200px; text-align: center;"><p style="font-size: small"><em>(current idle animation)</em></p></td>
+				<td style="overflow: hidden; width: 200px; text-align: center;"><p style="font-size: small"><em>(current holding animation)</em></p></td>
+			</tr>
+		</table>	
+	</div>
+  </p>
+  
+  <h2>Screenshots</h2>
+  
+  <p>Piglethrower screenshots.</p>
+  
+  <h2>Video</h2>
+  
+  <p>Piglethrower video.</p>
+  
+  <h2>Play</h2>
+  
+  <p>
+	You may have problems (application and security errors) if you will try to play it here - the game was written as a Java Applet which is something like a Java program running in the browser, but it is not very popular, considered a safety threat and therefore hard to run using a modern browser.
+	<br/><br/>
+	It is not impossible, just install newest Java and Java Runtime Environment and then follow those steps:
+	<br/>
+	<ol>
+		<li>Go to Control Panel on Windows.</li>
+		<li>Select JAVA (you may have to search for it).</li>
+		<li>Go to "Security" tab.</li>
+		<li>Click "Edit Site List".</li>
+		<li>Click "Add".</li>
+		<li>Paste URL of this site there (http://celebes.github.io/games/piglethrower/).</li>
+		<li>Click "Ok".</li>
+		<li>Click "Continue" on security warning.</li>
+	</ol>
+	
+	After all that extra work you should get a new warning (yay!) with 3 choices - select "run" and you should be able to play!
+	<br/><br/>
+	There are some problems with the music sadly, just find "epic sax guy 10 hours" on youtube and play it in the background for full immersion..
+	</br><br/>
+  </p>
+  
+  <div style="text-align: center;">
+  <embed id="pigapplet"
+       type="application/x-java-applet;version=1.6"
+       width="800" height="600" 
+       archive="piglethrower.jar"
+       code="RuszGlowa"
+       pluginspage="http://java.com/download/" />
+  </div>
+  
+  
+  <br/>
+  <h2>Source code</h2>
+  
+  <p>For now it sits on my hard drive, if you want to see it just write in the comments and I will upload it to github or something!</p>
+  
+</div>
+
+
+      <div class="footer">
+        <div class="disclaimer">
+  
+
+  <p>
+    © <a href="/">Krzysztof Gurniak</a>, 2014 &mdash; built with <a href="http://jekyllrb.com/">Jekyll</a> using <a href="https://github.com/swanson/lagom/">Lagom</a> theme
+  </p>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-xxxx-x']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

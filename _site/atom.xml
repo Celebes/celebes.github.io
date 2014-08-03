@@ -1,17 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title></title>
-    <description></description>
-    <link>http://celebes.github.io/</link>
-    <atom:link href="http://celebes.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 03 Aug 2014 17:22:12 +0100</pubDate>
-    <lastBuildDate>Sun, 03 Aug 2014 17:22:12 +0100</lastBuildDate>
-    <generator>Jekyll v2.2.0</generator>
-    
-      <item>
-        <title>Witaj, świecie!</title>
-        <description>&lt;p&gt;Siema kurczaki&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>The blog of Krzysztof Gurniak</title>
+ <link href="http://celebes.github.io/atom.xml" rel="self"/>
+ <link href="http://celebes.github.io"/>
+ <updated>2014-08-03T17:22:12+01:00</updated>
+ <id>http://celebes.github.io</id>
+ <author>
+   <name>Krzysztof Gurniak</name>
+   <email>kris1337@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Witaj, świecie!</title>
+   <link href="http://celebes.github.io/blog/2014/08/01/witaj-swiecie.html"/>
+   <updated>2014-08-01T00:00:00+01:00</updated>
+   <id>http://celebes.github.io/blog/2014/08/01/witaj-swiecie</id>
+   <content type="html">&lt;p&gt;Siema kurczaki&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -41,19 +47,15 @@ iPhone try-hard jean shorts.&lt;/p&gt;
 
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-</description>
-        <pubDate>Fri, 01 Aug 2014 00:00:00 +0100</pubDate>
-        <link>http://celebes.github.io/blog/2014/08/01/witaj-swiecie.html</link>
-        <guid isPermaLink="true">http://celebes.github.io/blog/2014/08/01/witaj-swiecie.html</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Welcome to Jekyll!</title>
+   <link href="http://celebes.github.io/jekyll/update/2014/07/05/welcome-to-jekyll.html"/>
+   <updated>2014-07-05T23:17:23+01:00</updated>
+   <id>http://celebes.github.io/jekyll/update/2014/07/05/welcome-to-jekyll</id>
+   <content type="html">&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
 To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
 
 &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
@@ -66,21 +68,15 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
 
-</description>
-        <pubDate>Sat, 05 Jul 2014 23:17:23 +0100</pubDate>
-        <link>http://celebes.github.io/jekyll/update/2014/07/05/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://celebes.github.io/jekyll/update/2014/07/05/welcome-to-jekyll.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Sample post</title>
-        <description>&lt;p&gt;Tattooed roof party &lt;em&gt;vinyl&lt;/em&gt; freegan single-origin coffee wayfarers tousled, umami yr 
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Sample post</title>
+   <link href="http://celebes.github.io/blog/2013/08/20/sample-post.html"/>
+   <updated>2013-08-20T00:00:00+01:00</updated>
+   <id>http://celebes.github.io/blog/2013/08/20/sample-post</id>
+   <content type="html">&lt;p&gt;Tattooed roof party &lt;em&gt;vinyl&lt;/em&gt; freegan single-origin coffee wayfarers tousled, umami yr 
 meggings hella selvage. Butcher bespoke seitan, cornhole umami gentrify put a bird 
 on it occupy trust fund. Umami whatever kitsch, locavore fingerstache Tumblr pork belly
 &lt;a href=&quot;#&quot;&gt;keffiyeh&lt;/a&gt;. Chia Echo Park Pitchfork, Blue Bottle &lt;a href=&quot;#&quot;&gt;hashtag&lt;/a&gt; stumptown skateboard selvage 
@@ -114,19 +110,15 @@ iPhone try-hard jean shorts.&lt;/p&gt;
 
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-</description>
-        <pubDate>Tue, 20 Aug 2013 00:00:00 +0100</pubDate>
-        <link>http://celebes.github.io/blog/2013/08/20/sample-post.html</link>
-        <guid isPermaLink="true">http://celebes.github.io/blog/2013/08/20/sample-post.html</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Another sample</title>
-        <description>&lt;p&gt;Tattooed roof party &lt;em&gt;vinyl&lt;/em&gt; freegan single-origin coffee wayfarers tousled, umami yr 
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Another sample</title>
+   <link href="http://celebes.github.io/blog/2013/08/12/another-sample.html"/>
+   <updated>2013-08-12T00:00:00+01:00</updated>
+   <id>http://celebes.github.io/blog/2013/08/12/another-sample</id>
+   <content type="html">&lt;p&gt;Tattooed roof party &lt;em&gt;vinyl&lt;/em&gt; freegan single-origin coffee wayfarers tousled, umami yr 
 meggings hella selvage. Butcher bespoke seitan, cornhole umami gentrify put a bird 
 on it occupy trust fund. Umami whatever kitsch, locavore fingerstache Tumblr pork belly
 &lt;a href=&quot;#&quot;&gt;keffiyeh&lt;/a&gt;. Chia Echo Park Pitchfork, Blue Bottle &lt;a href=&quot;#&quot;&gt;hashtag&lt;/a&gt; stumptown skateboard selvage 
@@ -159,15 +151,8 @@ iPhone try-hard jean shorts.&lt;/p&gt;
   &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tons&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;other&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;crap&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
 
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-</description>
-        <pubDate>Mon, 12 Aug 2013 00:00:00 +0100</pubDate>
-        <link>http://celebes.github.io/blog/2013/08/12/another-sample.html</link>
-        <guid isPermaLink="true">http://celebes.github.io/blog/2013/08/12/another-sample.html</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-  </channel>
-</rss>
+</content>
+ </entry>
+ 
+ 
+</feed>
