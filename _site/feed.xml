@@ -5,9 +5,47 @@
     <description></description>
     <link>http://celebes.github.io/</link>
     <atom:link href="http://celebes.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 09 Aug 2014 19:02:52 +0100</pubDate>
-    <lastBuildDate>Sat, 09 Aug 2014 19:02:52 +0100</lastBuildDate>
+    <pubDate>Fri, 03 Oct 2014 13:27:13 +0100</pubDate>
+    <lastBuildDate>Fri, 03 Oct 2014 13:27:13 +0100</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
+    
+      <item>
+        <title>New game approaching</title>
+        <description>&lt;p&gt;I’ve been busy lately working on my newest game named “One Tap Death Finger”. It is a simple fighting game where every screen tap (or mouse click) is an attack. Player has to wait for enemies to enter zone around him before attacking. Otherwise he will miss and become vulnerable to enemy attacks.&lt;/p&gt;
+
+&lt;p&gt;Below is a raw screenshot from the current version:&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+	&lt;img src=&quot;/assets/images/posts/2014-10-02/otdf-prototype-01.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;As you can see there’s the player in the middle and enemies approaching from both sides. There are two attack zones: left and right. Player has a HP bar with 10 lives. The goal is to kill as many enemies as possible. Every kill gives 1 point, total score is visible at the top.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 02 Oct 2014 00:00:00 +0100</pubDate>
+        <link>http://celebes.github.io/blog/2014/10/02/new-game-approaching.html</link>
+        <guid isPermaLink="true">http://celebes.github.io/blog/2014/10/02/new-game-approaching.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Oracle Certified Associate unlocked!</title>
+        <description>&lt;p&gt;Today I have earned the Oracle Certified Associate, Java SE 7 Programmer I (long name, huh?) certificate! My passing score was 88%. &lt;/p&gt;
+
+&lt;p&gt;I am really proud of myself, I studied hard for it every other day for the past 2 months. I read book preparing for the exam by Mala Gupta from cover to cover and it was enough effort to pass. I will do more mock exams for Oracle Certified Professional, though, because I feel like I was fooled couple of times. I will avoid that in the future.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Sep 2014 00:00:00 +0100</pubDate>
+        <link>http://celebes.github.io/blog/2014/09/01/java-oca.html</link>
+        <guid isPermaLink="true">http://celebes.github.io/blog/2014/09/01/java-oca.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Hello, world!</title>
