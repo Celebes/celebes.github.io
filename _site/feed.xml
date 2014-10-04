@@ -5,13 +5,17 @@
     <description></description>
     <link>http://celebes.github.io/</link>
     <atom:link href="http://celebes.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 03 Oct 2014 13:27:13 +0100</pubDate>
-    <lastBuildDate>Fri, 03 Oct 2014 13:27:13 +0100</lastBuildDate>
+    <pubDate>Sat, 04 Oct 2014 16:07:43 +0100</pubDate>
+    <lastBuildDate>Sat, 04 Oct 2014 16:07:43 +0100</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
-        <title>New game approaching</title>
-        <description>&lt;p&gt;I’ve been busy lately working on my newest game named “One Tap Death Finger”. It is a simple fighting game where every screen tap (or mouse click) is an attack. Player has to wait for enemies to enter zone around him before attacking. Otherwise he will miss and become vulnerable to enemy attacks.&lt;/p&gt;
+        <title>One Tap Death Finger, DevLog &amp;#35;01</title>
+        <description>&lt;p&gt;I’ve been busy lately working on my newest game named “One Tap Death Finger”. It is a simple fighting game where every screen tap (or mouse click) is an attack. Player has to wait for enemies to enter the zone around him before attacking. Otherwise he will miss and become vulnerable to enemy attacks.&lt;/p&gt;
+
+&lt;p&gt;I am developing this game with Java using LibGDX framework. It will be released for Android, HTML5 and PC when finished.&lt;/p&gt;
+
+&lt;p&gt;As some of you may have noticed it bears a strong resemblance to an existing game named “One Finger Death Punch”. The reason is I love mentioned game and I decided to make a simpler, mobile version of it, because it is on PC only right now. I also wanted to find out if my programming skills are good enough to do succeed, because I though it is simple enough to recreate (as it turns out - it is not THAT simple, but it’s for the best, because I will learn more).&lt;/p&gt;
 
 &lt;p&gt;Below is a raw screenshot from the current version:&lt;/p&gt;
 
@@ -22,10 +26,21 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;As you can see there’s the player in the middle and enemies approaching from both sides. There are two attack zones: left and right. Player has a HP bar with 10 lives. The goal is to kill as many enemies as possible. Every kill gives 1 point, total score is visible at the top.&lt;/p&gt;
+
+&lt;p&gt;Here’s what works at the moment:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Player movement including attacking enemies and missing&lt;/li&gt;
+	&lt;li&gt;Enemies movement including approaching the player and attacking him&lt;/li&gt;
+	&lt;li&gt;Enemies spawning using object pooling design pattern&lt;/li&gt;
+	&lt;li&gt;Rendering attacking zones and deciding when attack is possible&lt;/li&gt;
+	&lt;li&gt;Pushing back the player and all enemies behind him, when he is attacked (to avoid player being bounced, trapped between two enemies)&lt;/li&gt;
+	&lt;li&gt;Stopping all enemies movement for a moment when player is hurt, so there is an additional time for him to react&lt;/li&gt;
+	&lt;li&gt;Basic GUI implemented with ShapeRenderer for HP, number of enemies killed, etc.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Thu, 02 Oct 2014 00:00:00 +0100</pubDate>
-        <link>http://celebes.github.io/blog/2014/10/02/new-game-approaching.html</link>
-        <guid isPermaLink="true">http://celebes.github.io/blog/2014/10/02/new-game-approaching.html</guid>
+        <link>http://celebes.github.io/blog/2014/10/02/otdf-01.html</link>
+        <guid isPermaLink="true">http://celebes.github.io/blog/2014/10/02/otdf-01.html</guid>
         
         
         <category>blog</category>
@@ -33,8 +48,10 @@
       </item>
     
       <item>
-        <title>Oracle Certified Associate unlocked!</title>
-        <description>&lt;p&gt;Today I have earned the Oracle Certified Associate, Java SE 7 Programmer I (long name, huh?) certificate! My passing score was 88%. &lt;/p&gt;
+        <title>OCA certificate unlocked!</title>
+        <description>&lt;p&gt;Today I have earned the Oracle Certified Associate, Java SE 7 Programmer I (long name, huh?) certificate!&lt;/p&gt;
+
+&lt;p&gt;My passing score was 88%. &lt;/p&gt;
 
 &lt;p&gt;I am really proud of myself, I studied hard for it every other day for the past 2 months. I read book preparing for the exam by Mala Gupta from cover to cover and it was enough effort to pass. I will do more mock exams for Oracle Certified Professional, though, because I feel like I was fooled couple of times. I will avoid that in the future.&lt;/p&gt;
 </description>

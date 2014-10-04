@@ -5,10 +5,14 @@ permalink: /blog/
 ---
 
 <div id="home">
-  <h2><i class="fa fa-bookmark"></i> Blog Posts</h2>
+  <h2 style="text-align: center;"><i class="fa fa-bookmark"></i> Blog Posts</h2>
+  <hr/>
+
   <ul id="blog-posts" class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date: "%d %m %Y" }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+  
+  <br/>
 </div>
