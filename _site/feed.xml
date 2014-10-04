@@ -5,8 +5,8 @@
     <description></description>
     <link>http://celebes.github.io/</link>
     <atom:link href="http://celebes.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 04 Oct 2014 16:07:43 +0100</pubDate>
-    <lastBuildDate>Sat, 04 Oct 2014 16:07:43 +0100</lastBuildDate>
+    <pubDate>Sat, 04 Oct 2014 18:55:39 +0100</pubDate>
+    <lastBuildDate>Sat, 04 Oct 2014 18:55:39 +0100</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -15,7 +15,7 @@
 
 &lt;p&gt;I am developing this game with Java using LibGDX framework. It will be released for Android, HTML5 and PC when finished.&lt;/p&gt;
 
-&lt;p&gt;As some of you may have noticed it bears a strong resemblance to an existing game named “One Finger Death Punch”. The reason is I love mentioned game and I decided to make a simpler, mobile version of it, because it is on PC only right now. I also wanted to find out if my programming skills are good enough to do succeed, because I though it is simple enough to recreate (as it turns out - it is not THAT simple, but it’s for the best, because I will learn more).&lt;/p&gt;
+&lt;p&gt;As some of you may have noticed it bears a strong resemblance to an existing game named “One Finger Death Punch”. The reason is I love mentioned game and I decided to make a simpler, mobile version of it, because it is on PC only right now. I also wanted to find out if my programming skills are good enough to succeed, because I thought it is simple enough to recreate (as it turns out - it is not THAT simple, but it’s for the best, because I will learn more).&lt;/p&gt;
 
 &lt;p&gt;Below is a raw screenshot from the current version:&lt;/p&gt;
 

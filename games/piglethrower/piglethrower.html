@@ -5,18 +5,46 @@ permalink: /games/piglethrower/
 comments: true
 ---
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+	$game_window_visible = false;
+	
+	$(document).ready(function() {
+		$("#game_button").click(function(){
+			if($game_window_visible == false) {
+				$game_window_visible = true;
+				
+				jQuery('<embed/>', {
+					id: 'pigapplet',
+					type: 'application/x-java-applet;version=1.6',
+					width: '800',
+					height: '600',
+					archive: 'piglethrower.jar',
+					code: 'RuszGlowa',
+					pluginspage: 'http://java.com/download/'
+				}).appendTo('#game_window');
+			}
+			
+			$("#game_button").remove();
+		}); 
+	});
+</script>
+
 <div id="home">
   <h1 style="text-align: center; font-weight: 900; font-size: 46px;">PIGLETHROWER</h1>
-  
+  <hr/>
   <br/>
   
   <div style="text-align: center;">
 	<img title="It is just an image, scroll down to play the actual game!" src="/assets/images/piglethrower/piglethrower_header.png">
   </div>
   
-  <br/><br/>
+  <br/>
   
-  <h2>About Piglethrower</h2>
+  <hr style="margin: 30px 0px 10px;"/>
+  <h2 style="text-align: center; font-size: 36px;">ABOUT</h2>
+  <hr/>
+  <br/>
   
   <p>
 	<strong>Development time:</strong> 2 weeks
@@ -76,7 +104,10 @@ comments: true
   
   <br/><br/>
   
-  <h2>Screenshots</h2>
+  <hr style="margin: 30px 0px 10px;"/>
+  <h2 style="text-align: center; font-size: 36px;">SCREENSHOTS</h2>
+  <hr/>
+  <br/>
   
   <div style="text-align: center; margin: 0 auto; width:100%;">
   	  <ul class="hoverbox">
@@ -103,18 +134,31 @@ comments: true
 	  </ul>
   </div>
   
-  <h2>Video</h2>
+  <br/>
+  <hr style="margin: 30px 0px 10px;"/>
+  <h2 style="text-align: center; font-size: 36px;">VIDEO</h2>
+  <hr/>
+  <br/>
   
   <p>Piglethrower video.</p>
   
-  <h2>Play</h2>
+  <br/>
+  <hr style="margin: 30px 0px 10px;"/>
+  <h2 style="text-align: center; font-size: 36px;">PLAY</h2>
+  <hr/>
   
   <p>
-	You may have problems (application and security errors) if you will try to play it here - the game was written as a Java Applet which is something like a Java program running in the browser, but it is not very popular, considered a safety threat and therefore hard to run using a modern browser.
+  
+	<div style="text-align: center; margin: 0px;">
+		<span style="font-weight: 900; ">By default the game window is hidden, click the button below instructions to show it.</span>
+	</div>
+
+	<br/>
+	I have hidden the button because you may have problems (application and security errors) if you will try to play it here - the game was written as a Java Applet which is something like a Java program running in the browser, but it is not very popular, considered a safety threat and therefore hard to run using a modern browser.
 	<br/><br/>
 	It is not impossible, just install newest Java and Java Runtime Environment and then follow those steps:
 	<br/>
-	<ol>
+	<ol style="margin-top: 15px;">
 		<li>Go to Control Panel on Windows.</li>
 		<li>Select JAVA (you may have to search for it).</li>
 		<li>Go to "Security" tab.</li>
@@ -131,19 +175,27 @@ comments: true
 	</br><br/>
   </p>
   
-  <div style="text-align: center;">
-  <embed id="pigapplet"
-       type="application/x-java-applet;version=1.6"
-       width="800" height="600" 
-       archive="piglethrower.jar"
-       code="RuszGlowa"
-       pluginspage="http://java.com/download/" />
+  <div style="text-align: center; margin: 0px;">
+	<input id="game_button" type="submit" value="Play the game!"/>
   </div>
   
+  <div id="game_window" style="text-align: center;">
+  
+  </div>
   
   <br/>
-  <h2>Source code</h2>
+  <hr style="margin: 30px 0px 10px;"/>
+  <h2 style="text-align: center; font-size: 36px;">SOURCE CODE</h2>
+  <hr/>
+  <br/>
   
-  <p>For now it sits on my hard drive, if you want to see it just write in the comments and I will upload it to github or something!</p>
+  <p>For now it sits on my hard drive, if you want to see it just write in the comments and I will upload it to github.</p>
   
+  <br/>
+  <hr style="margin: 30px 0px 10px;"/>
+  <h2 style="text-align: center; font-size: 36px;">DOWNLOAD</h2>
+  <hr/>
+  <br/>
+  
+  <p>Nothing to see here..</p>
 </div>

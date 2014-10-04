@@ -4,7 +4,7 @@
  <title>The blog of Krzysztof Gurniak</title>
  <link href="http://celebes.github.io/atom.xml" rel="self"/>
  <link href="http://celebes.github.io"/>
- <updated>2014-10-04T16:07:43+01:00</updated>
+ <updated>2014-10-04T18:55:39+01:00</updated>
  <id>http://celebes.github.io</id>
  <author>
    <name>Krzysztof Gurniak</name>
@@ -21,7 +21,7 @@
 
 &lt;p&gt;I am developing this game with Java using LibGDX framework. It will be released for Android, HTML5 and PC when finished.&lt;/p&gt;
 
-&lt;p&gt;As some of you may have noticed it bears a strong resemblance to an existing game named “One Finger Death Punch”. The reason is I love mentioned game and I decided to make a simpler, mobile version of it, because it is on PC only right now. I also wanted to find out if my programming skills are good enough to do succeed, because I though it is simple enough to recreate (as it turns out - it is not THAT simple, but it’s for the best, because I will learn more).&lt;/p&gt;
+&lt;p&gt;As some of you may have noticed it bears a strong resemblance to an existing game named “One Finger Death Punch”. The reason is I love mentioned game and I decided to make a simpler, mobile version of it, because it is on PC only right now. I also wanted to find out if my programming skills are good enough to succeed, because I thought it is simple enough to recreate (as it turns out - it is not THAT simple, but it’s for the best, because I will learn more).&lt;/p&gt;
 
 &lt;p&gt;Below is a raw screenshot from the current version:&lt;/p&gt;
 
