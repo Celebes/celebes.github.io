@@ -10,7 +10,10 @@ permalink: /games/gorky/
   <br/>
   
   <div style="text-align: center;">
-	<img title="It is just an image, scroll down to play the actual game!" src="/assets/images/gorky/gorky_header.png">
+	<video loop autoplay>
+		<source src="/assets/movies/gorky/gorky.webm" type="video/webm">
+		Your browser does not support the HTML5 video tag. Ditch your IE and join the Firefox or Chrome master race!
+	</video>
   </div>
   
   <br/>
@@ -21,10 +24,13 @@ permalink: /games/gorky/
   <br/>
   
   <p>
+	<strong>Technologies used: </strong> Java, LibGDX, Scene2D
+	<br/>
 	<strong>Development time:</strong> 10 days
 	<br/>
 	<strong>Release date:</strong> June 2014
-	<br/><br/>
+	<br/>
+	<br/>
 	
 	I can exactly say how many days it took me to finish this one, because I can check it out on Github commits history. It was a hot summer, the end of 8th semester at the university, lots of studying for exams and lots of work on many different projects, including this one.
 	
@@ -46,7 +52,7 @@ permalink: /games/gorky/
 	
 	<br/><br/>
 	
-	The gameplay is similiar to classic jRPG games like Final Fantasy. The thing that is different is that you control your character not by using d-pad or arrow keys, but by clicking the mouse / touching the screen. Character then goes to selected place. There is no path finding at all, so any wall becomes an impenetrable obstacle, but it doesn't matter much in a simple game like that.
+	The gameplay is similiar to classic jRPG games like Final Fantasy. The thing that is different is that you control your character not by using d-pad or arrow keys, but by clicking the mouse/touching the screen. Character then goes to selected place. There is no path finding at all, so any wall becomes an impenetrable obstacle, but it doesn't matter much in a simple game like that.
 	
 	<br/><br/>
 	
@@ -54,7 +60,7 @@ permalink: /games/gorky/
 	
 	<br/><br/>
 	
-	I'd like to point out that I didn't do the graphics. They are mostly taken from some existing games, menus etc. I just glued everything together, sometimes changed some detail in a photoshop. Also music is ripped of off youtube. Menu song is from one of the FF games. That's one of the main reasons why I won't publish this game or anything - I don't want to get sued. It was a non-profit school project, so hopefully I don't have to worry about copyrights.
+	I'd like to point out that I didn't do the graphics. They are mostly taken from some existing games, menus etc. I just glued everything together, sometimes changed some detail in a Photoshop. Also music is ripped of off Youtube. Menu song is from one of the FF games. That's one of the main reasons why I won't publish this game or anything - I don't want to get sued. It was a non-profit school project, so hopefully I don't have to worry about copyrights.
 	
 	<br/><br/>
 	
@@ -64,7 +70,7 @@ permalink: /games/gorky/
 	
 	<ul>
 		<li><span style="font-weight: 900;">June 04</span> - I created a basic LibGDX project and loaded it into eclipse.</li>
-		<li><span style="font-weight: 900;">June 05</span> - I have set up the map view, where player can wander around. I implemented movement on click, collision detection with walls and some basic main menu screen with logo and no gui.</li>
+		<li><span style="font-weight: 900;">June 05</span> - I have set up the map view, where player can wander around. I implemented movement on click, collision detection with walls and some basic main menu screen with logo and no GUI.</li>
 		<li><span style="font-weight: 900;">June 06</span> - I started messing around with equipment system (never finished it..) and created a placeholder for battle screen.</li>
 	</ul>
 	
@@ -74,12 +80,12 @@ permalink: /games/gorky/
 	
 	<ul>
 		<li><span style="font-weight: 900;">June 18</span> - I have spent whole day fighting with a FATAL SIGNAL 11 error. I was angry and frustrated because I couldn't understand what is going on. The error was happening when player had collision with enemy standing on the map, which was supposed to switch screen to battle screen. It was only appearing on Android so I found out about it late, because I was mostly running the project on desktop. Turned out you can't just change screen whenever you want (for me it was between updating the game and rendering..). The solution was to add a flag, something like <span style="font-style: italic;">playerCollidedWithEnemy</span> and set it to true after collision. Then I was able to switch screen from GameScreen to BattleScreen if this flag was true without FATAL SIGNAL 11. Otherwise I was calling game.update() + game.render().</li>
-		<li><span style="font-weight: 900;">June 19</span> - I have created the main menu with settings and started working on battle menu. I have used Scene2D framework for both those screens. I also added polish font (with polish letters) and implemented localisation (PL/ENG).</li>
+		<li><span style="font-weight: 900;">June 19</span> - I have created the main menu with settings and started working on battle screen. I have used Scene2D framework for both those screens. I also added polish font (with polish letters) and implemented localisation (PL/ENG).</li>
 		<li><span style="font-weight: 900;">June 20</span> - I was fighting with different screen resolutions and created many things related to battle system - taking turns, taking damage, attacking, animations and the whole complicated machine state. At first I couldn't wrap my head around this subject. To this day I do not know how to do things like that in an elegant way. For example I have problems with following scenario: Player attacks, his animation ends, enemy receive damage, after enemy's animation is played it is enemy's turn. Now enemy either attacks or uses a healing potion. Then player reacts. Then control goes is back to the player. It can be done in many different ways involving dirty ways like using timers or some more sophisticated ways like State or Observer design patterns. None of those seem elegant enough to me, though. I have heard about creating a GameState class which decides which move is valid, but I didn't try it yet. I have to investigate this matter deeper in the future.</li>
-		<li><span style="font-weight: 900;">June 21</span> - I added battle screen GUI, including attack/heal/run away buttons, HP/MP bars, player/enemy name and level, little numbers above actors heads indicating inflicted damage, death animations, little pop-up window at the end of the battle with informations about acquired loot and gold. I also added random enemies generation on the map (random level and stats, so for example you could have stumbled upon very tough enemy and was forced to flee) and teleports to travel between maps (there were 3 total - starting zone with healing area, battle area with monster and easter egg map with rocks formed into an alien from space invaders classic video game).</li>
+		<li><span style="font-weight: 900;">June 21</span> - I added battle screen GUI, including attack/heal/run away buttons, HP/MP bars, player/enemy name and level, little numbers above actors heads indicating inflicted damage, death animations, little pop-up window at the end of the battle with informations about acquired loot and gold. I also added random enemies generation on the map (random level and stats, so for example you could have stumbled upon very tough enemy and was forced to flee) and teleports to travel between maps (there were 3 total - starting zone with healing area, battle area with monster and Easter egg map with rocks formed into an alien from space invaders classic video game).</li>
 		<li><span style="font-weight: 900;">June 22</span> - I added healing spell during the battle, sound and music, saving/loading game state, placeholders for log-in screen and new game screen. I also added an equipment button on game world screen. Equipment screen was only there to save the game and to see current player statistics like gold (useless in the game), experience points, strength, HP, etc.</li>
 		<li><span style="font-weight: 900;">June 23</span> - I was mostly polishing everything, added animations and buttons and log-in fields to the main menu screen, etc.</li>
-		<li><span style="font-weight: 900;">June 24</span> - was the deadline day. I took my notebook and went to the university hoping to get it over with (seriously, at this point and after so many days of working my ass off, I didn't want to work on it anymore - I needed to rest). Unfortunately me and the other guy haven't tested connection well enough. We couldn't log-in from withing the game to the web server. Professor told us to come back the other day. After class we went somewhere when internet was and we were coding 3-4 hours sitting in the hallway. After that everything worked - logging in, saving data on the web server and loading the game state from it. Everything was perfect, so we went back to meet professor the next day (or maybe a few days later, I don't remember) and showed it to him. He asked some generic questions about the code to make sure that we've made it by ourselves. Then he said that he can give us a 4+ grade (out of 5). I Then said that 5 all-nighters are worthy of a 5 grade. He laughed and agreed. So I ended up with best possible grade and I didn't have to write the exam. It was the best.</li>
+		<li><span style="font-weight: 900;">June 24</span> - was the deadline day. I took my notebook and went to the university hoping to get it over with (seriously, at this point and after so many days of working my ass off, I didn't want to work on it any more - I needed to rest). Unfortunately me and the other guy haven't tested connection well enough. We couldn't log-in from within the game to the web server. Professor told us to come back the other day. After class we went somewhere where internet was and we were coding 3-4 hours sitting in the hallway. After that everything worked - logging in, saving data on the web server and loading the game state from it. Everything was perfect, so we went back to meet professor the next day (or maybe a few days later, I don't remember) and showed it to him. He asked some generic questions about the code to make sure that we've made it by ourselves. Then he said that he can give us a 4+ grade (out of 5). I Then said that 5 all-nighters are worthy of a 5 grade. He laughed and agreed. So I ended up with best possible grade and I didn't have to write the exam. Awesome.</li>
 	</ul>
 	
   </p>
@@ -94,23 +100,43 @@ permalink: /games/gorky/
   <div style="text-align: center; margin: 0 auto; width:100%;">
   	  <ul class="hoverbox">
 		<li>
-			<a href="/assets/images/piglethrower/screenshot_01.png">
-				<img src="/assets/images/piglethrower/screenshot_01.png" alt="description" />
+			<a href="/assets/images/gorky/gorky_scrn_01.png">
+				<img src="/assets/images/gorky/gorky_scrn_01.png" alt="description" />
 			</a>
 		</li>
 		<li>
-			<a href="/assets/images/piglethrower/screenshot_02.png">
-				<img src="/assets/images/piglethrower/screenshot_02.png" alt="description" />
+			<a href="/assets/images/gorky/gorky_scrn_02.png">
+				<img src="/assets/images/gorky/gorky_scrn_02.png" alt="description" />
 			</a>
 		</li>
 		<li>
-			<a href="/assets/images/piglethrower/screenshot_03.png">
-				<img src="/assets/images/piglethrower/screenshot_03.png" alt="description" />
+			<a href="/assets/images/gorky/gorky_scrn_03.png">
+				<img src="/assets/images/gorky/gorky_scrn_03.png" alt="description" />
 			</a>
 		</li>
 		<li>
-			<a href="/assets/images/piglethrower/screenshot_04.png">
-				<img src="/assets/images/piglethrower/screenshot_04.png" alt="description" />
+			<a href="/assets/images/gorky/gorky_scrn_04.png">
+				<img src="/assets/images/gorky/gorky_scrn_04.png" alt="description" />
+			</a>
+		</li>
+		<li>
+			<a href="/assets/images/gorky/gorky_scrn_05.png">
+				<img src="/assets/images/gorky/gorky_scrn_05.png" alt="description" />
+			</a>
+		</li>
+		<li>
+			<a href="/assets/images/gorky/gorky_scrn_06.png">
+				<img src="/assets/images/gorky/gorky_scrn_06.png" alt="description" />
+			</a>
+		</li>
+		<li>
+			<a href="/assets/images/gorky/gorky_scrn_07.png">
+				<img src="/assets/images/gorky/gorky_scrn_07.png" alt="description" />
+			</a>
+		</li>
+		<li>
+			<a href="/assets/images/gorky/gorky_scrn_08.png">
+				<img src="/assets/images/gorky/gorky_scrn_08.png" alt="description" />
 			</a>
 		</li>
 	  </ul>
@@ -122,14 +148,36 @@ permalink: /games/gorky/
   <hr/>
   <br/>
   
-  <p>Nothing to see here..</p>
+  <div style="text-align: center;">
+	<video controls>
+		<source src="/assets/movies/gorky/gorky_vid.mp4" type="video/mp4">
+		Your browser does not support the HTML5 video tag. Ditch your IE and join the Firefox or Chrome master race!
+	</video>
+  </div>
   
   <br/>
   <hr style="margin: 30px 0px 10px;"/>
   <h2 style="text-align: center; font-size: 36px;">PLAY</h2>
   <hr/>
+  <br/>
   
-  <p>Nothing to see here..</p>
+  <p>
+  
+	You can play the desktop version of the game, download link is on the bottom of this page in the download section. Don't try to log in or do anything network related inside the game, because the server doesn't work (nor exist).
+  
+	<br/><br/>
+  
+	Unfortunately I wasn't able to run Gorky as a HTML5 project using libGDX. There were GWT problems with reading .json files, on which whole GUI is based. I spent many hours trying to resolve the issue but without success.
+  
+	<br/><br/>
+  
+	You can move the player by clicking on the ground or using arrow keys on the keyboard.
+  
+	<br/><br/>
+  
+	There are also hidden controls in the game for debugging: press Enter to detach the camera from the player and move it around freely using WSAD keys. Press Enter again to attach camera back to the player. Use "," and "." buttons to zoom out and zoom in. Press "/" button to reset zoom.
+  
+  </p> 
   
   <br/>
   <hr style="margin: 30px 0px 10px;"/>
@@ -137,7 +185,7 @@ permalink: /games/gorky/
   <hr/>
   <br/>
   
-  <p>Nothing to see here..</p>
+  <p>Source code is publicly available at my github account, click <a href="https://github.com/Celebes/gorky">here</a>.</p>
   
   <br/>
   <hr style="margin: 30px 0px 10px;"/>
@@ -145,5 +193,13 @@ permalink: /games/gorky/
   <hr/>
   <br/>
   
-  <p>Nothing to see here..</p>
+  <p>
+  
+	You can download and play the desktop version using the link below. It requires Java installed on your PC.
+
+	<br/>
+	<br/>
+	<div style="text-align: center;"><a href="/downloads/gorky-1.0.jar" download>gorky-1.0.jar</a></div>
+  
+  </p>
 </div>
