@@ -5,9 +5,33 @@
     <description></description>
     <link>http://celebes.github.io/</link>
     <atom:link href="http://celebes.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 12 Oct 2014 07:12:24 +0100</pubDate>
-    <lastBuildDate>Sun, 12 Oct 2014 07:12:24 +0100</lastBuildDate>
+    <pubDate>Sun, 12 Oct 2014 15:30:32 +0100</pubDate>
+    <lastBuildDate>Sun, 12 Oct 2014 15:30:32 +0100</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
+    
+      <item>
+        <title>One Tap Death Finger, DevLog &amp;#35;02</title>
+        <description>&lt;p&gt;Little update, I just wanted to show that I implemented something called POWER SMASH. Player has 20% chance to activate it and when he does it extends his attack range to reach nearby enemies. Watch video below if you don’t know what I am talking about.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+	&lt;video controls=&quot;&quot;&gt;
+		&lt;source src=&quot;/assets/movies/otdf/otdf-power-smash.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+		Your browser does not support the HTML5 video tag. Ditch your IE and join the Firefox or Chrome master race!
+	&lt;/video&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Next I will focus on adding weapons, which extend player’s range a little bit until they break and different types of enemies that are harder to beat, meaning they can take more than one hit and can switch sides.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Oct 2014 00:00:00 +0100</pubDate>
+        <link>http://celebes.github.io/blog/2014/10/12/otdf-02.html</link>
+        <guid isPermaLink="true">http://celebes.github.io/blog/2014/10/12/otdf-02.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>One Tap Death Finger, DevLog &amp;#35;01</title>
