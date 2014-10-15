@@ -4,7 +4,7 @@
  <title>The blog of Krzysztof Gurniak</title>
  <link href="http://celebes.github.io/atom.xml" rel="self"/>
  <link href="http://celebes.github.io"/>
- <updated>2014-10-12T15:30:32+01:00</updated>
+ <updated>2014-10-15T09:45:37+01:00</updated>
  <id>http://celebes.github.io</id>
  <author>
    <name>Krzysztof Gurniak</name>
@@ -13,11 +13,58 @@
 
  
  <entry>
+   <title>One Tap Death Finger, DevLog &#35;03</title>
+   <link href="http://celebes.github.io/blog/otdf-devlog-03/"/>
+   <updated>2014-10-15T00:00:00+01:00</updated>
+   <id>http://celebes.github.io/blog/otdf-03</id>
+   <content type="html">&lt;p&gt;In today’s update I’d like to introduce weapons. There are 2 types of them in the game: a bow and a stick.
+&lt;br /&gt;
+&lt;br /&gt;
+Bow let’s you shoot limited number of arrows that will instantly kill anyone on their way. You can only shoot one arrow at a time, so you can’t “spam” them:
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+	&lt;video controls=&quot;&quot;&gt;
+		&lt;source src=&quot;/assets/movies/otdf/otdf-bow-test.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+		Your browser does not support the HTML5 video tag. Ditch your IE and join the Firefox or Chrome master race!
+	&lt;/video&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+Stick extends player’s attack range by one unit in every direction. It will break after couple of hits:
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+	&lt;video controls=&quot;&quot;&gt;
+		&lt;source src=&quot;/assets/movies/otdf/otdf-stick-test.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+		Your browser does not support the HTML5 video tag. Ditch your IE and join the Firefox or Chrome master race!
+	&lt;/video&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+In order to acquire weapons you have to kill enemies. Every enemy has a chance of spawning with equipped weapon, which they will drop when killed:
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+	&lt;video controls=&quot;&quot;&gt;
+		&lt;source src=&quot;/assets/movies/otdf/otdf-weapon-drop-test.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+		Your browser does not support the HTML5 video tag. Ditch your IE and join the Firefox or Chrome master race!
+	&lt;/video&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+In the next update I will focus on new types of enemies.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>One Tap Death Finger, DevLog &#35;02</title>
-   <link href="http://celebes.github.io/blog/2014/10/12/otdf-02.html"/>
+   <link href="http://celebes.github.io/blog/otdf-devlog-02/"/>
    <updated>2014-10-12T00:00:00+01:00</updated>
-   <id>http://celebes.github.io/blog/2014/10/12/otdf-02</id>
-   <content type="html">&lt;p&gt;Little update, I just wanted to show that I implemented something called POWER SMASH. Player has 20% chance to activate it and when he does it extends his attack range to reach nearby enemies. Watch video below if you don’t know what I am talking about.
+   <id>http://celebes.github.io/blog/otdf-02</id>
+   <content type="html">&lt;p&gt;Little update, I just wanted to show that I implemented something called POWER SMASH. Player has a 20% chance to activate it and when he does it extends his attack range to reach nearby enemies. Watch video below if you don’t know what I am talking about.
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;div style=&quot;text-align: center;&quot;&gt;
@@ -34,9 +81,9 @@ Next I will focus on adding weapons, which extend player’s range a little bit 
  
  <entry>
    <title>One Tap Death Finger, DevLog &#35;01</title>
-   <link href="http://celebes.github.io/blog/2014/10/02/otdf-01.html"/>
+   <link href="http://celebes.github.io/blog/otdf-devlog-01/"/>
    <updated>2014-10-02T00:00:00+01:00</updated>
-   <id>http://celebes.github.io/blog/2014/10/02/otdf-01</id>
+   <id>http://celebes.github.io/blog/otdf-01</id>
    <content type="html">&lt;p&gt;I’ve been busy lately working on my newest game named “One Tap Death Finger”. It is a simple fighting game where every screen tap (or mouse click) is an attack. Player has to wait for enemies to enter the zone around him before attacking. Otherwise he will miss and become vulnerable to enemy attacks.&lt;/p&gt;
 
 &lt;p&gt;I am developing this game with Java using LibGDX framework. It will be released for Android, HTML5 and PC when finished.&lt;/p&gt;
@@ -68,9 +115,9 @@ Next I will focus on adding weapons, which extend player’s range a little bit 
  
  <entry>
    <title>OCA certificate unlocked!</title>
-   <link href="http://celebes.github.io/blog/2014/09/01/java-oca.html"/>
+   <link href="http://celebes.github.io/blog/java-oca/"/>
    <updated>2014-09-01T00:00:00+01:00</updated>
-   <id>http://celebes.github.io/blog/2014/09/01/java-oca</id>
+   <id>http://celebes.github.io/blog/java-oca</id>
    <content type="html">&lt;p&gt;Today I have earned the Oracle Certified Associate, Java SE 7 Programmer I (long name, huh?) certificate!&lt;/p&gt;
 
 &lt;p&gt;My passing score was 88%. &lt;/p&gt;
@@ -81,9 +128,9 @@ Next I will focus on adding weapons, which extend player’s range a little bit 
  
  <entry>
    <title>Hello, world!</title>
-   <link href="http://celebes.github.io/blog/2014/08/03/hello-world.html"/>
+   <link href="http://celebes.github.io/blog/hello-world/"/>
    <updated>2014-08-03T00:00:00+01:00</updated>
-   <id>http://celebes.github.io/blog/2014/08/03/hello-world</id>
+   <id>http://celebes.github.io/blog/hello-world</id>
    <content type="html">&lt;p&gt;Oh hi, didn’t see you there, guess what I just did.. this blog/portfolio/thing. It is pretty basic for now, but I am glad the making process is over, because I have other, very serious things to do - study hard for an upcoming java certification exam (Oracle Certified Associate). I will start tomorrow, though..&lt;/p&gt;
 
 &lt;p&gt;For now you can write comments here, check out my awesome &lt;a href=&quot;/about/&quot;&gt;about me&lt;/a&gt; page or even play my first video game ever - &lt;a href=&quot;/games/piglethrower/&quot;&gt;piglethrower&lt;/a&gt;!&lt;/p&gt;

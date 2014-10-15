@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello, world!
+permalink: /blog/hello-world/
 categories:
 - blog
 ---

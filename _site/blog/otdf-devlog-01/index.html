@@ -6,10 +6,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Krzysztof Gurniak - One Tap Death Finger, DevLog &#35;02</title>
+  <title>Krzysztof Gurniak - One Tap Death Finger, DevLog &#35;01</title>
   <meta name="author" content="Krzysztof Gurniak" />
   <meta name="description" content="The blog of Krzysztof Gurniak" />
-  <link rel="canonical" href="http://celebes.github.io/blog/2014/10/12/otdf-02.html" />
+  <link rel="canonical" href="http://celebes.github.io/blog/otdf-devlog-01/" />
 
   <link href="//fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="/favicon.png">
@@ -93,27 +93,41 @@
 
     <div class="eleven columns content">
       <p class="meta">
-  12 October 2014 
+  2 October 2014 
   <a href="/">
     <i class="home fa fa-home"></i>
   </a>
 </p>
 
-<h1 class="title">One Tap Death Finger, DevLog &#35;02</h1>
+<h1 class="title" style="text-align: center;">One Tap Death Finger, DevLog &#35;01</h1>
 
 <div id="post">
-  <p>Little update, I just wanted to show that I implemented something called POWER SMASH. Player has 20% chance to activate it and when he does it extends his attack range to reach nearby enemies. Watch video below if you don’t know what I am talking about.
-<br /></p>
+  <p>I’ve been busy lately working on my newest game named “One Tap Death Finger”. It is a simple fighting game where every screen tap (or mouse click) is an attack. Player has to wait for enemies to enter the zone around him before attacking. Otherwise he will miss and become vulnerable to enemy attacks.</p>
+
+<p>I am developing this game with Java using LibGDX framework. It will be released for Android, HTML5 and PC when finished.</p>
+
+<p>As some of you may have noticed it bears a strong resemblance to an existing game named “One Finger Death Punch”. The reason is I love mentioned game and I decided to make a simpler, mobile version of it, because it is on PC only right now. I also wanted to find out if my programming skills are good enough to succeed, because I thought it is simple enough to recreate (as it turns out - it is not THAT simple, but it’s for the best, because I will learn more).</p>
+
+<p>Below is a raw screenshot from the current version:</p>
 
 <div style="text-align: center;">
-	<video controls="">
-		<source src="/assets/movies/otdf/otdf-power-smash.mp4" type="video/mp4" />
-		Your browser does not support the HTML5 video tag. Ditch your IE and join the Firefox or Chrome master race!
-	</video>
+	<img src="/assets/images/posts/2014-10-02/otdf-prototype-01.png" />
 </div>
 
-<p><br />
-Next I will focus on adding weapons, which extend player’s range a little bit until they break and different types of enemies that are harder to beat, meaning they can take more than one hit and can switch sides.</p>
+<p><br /></p>
+
+<p>As you can see there’s the player in the middle and enemies approaching from both sides. There are two attack zones: left and right. Player has a HP bar with 10 lives. The goal is to kill as many enemies as possible. Every kill gives 1 point, total score is visible at the top.</p>
+
+<p>Here’s what works at the moment:</p>
+<ul>
+	<li>Player movement including attacking enemies and missing</li>
+	<li>Enemies movement including approaching the player and attacking him</li>
+	<li>Enemies spawning using object pooling design pattern</li>
+	<li>Rendering attacking zones and deciding when attack is possible</li>
+	<li>Pushing back the player and all enemies behind him, when he is attacked (to avoid player being bounced, trapped between two enemies)</li>
+	<li>Stopping all enemies movement for a moment when player is hurt, so there is an additional time for him to react</li>
+	<li>Basic GUI implemented with ShapeRenderer for HP, number of enemies killed, etc.</li>
+</ul>
 
 </div>
 
