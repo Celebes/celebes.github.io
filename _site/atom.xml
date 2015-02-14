@@ -4,13 +4,43 @@
  <title>The blog of Krzysztof Gurniak</title>
  <link href="http://celebes.github.io/atom.xml" rel="self"/>
  <link href="http://celebes.github.io"/>
- <updated>2014-10-15T09:45:37+01:00</updated>
+ <updated>2015-02-14T17:47:47+00:00</updated>
  <id>http://celebes.github.io</id>
  <author>
    <name>Krzysztof Gurniak</name>
    <email>kris1337@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>One Tap Death Finger, DevLog &#35;04</title>
+   <link href="http://celebes.github.io/blog/otdf-devlog-04/"/>
+   <updated>2015-02-14T00:00:00+00:00</updated>
+   <id>http://celebes.github.io/blog/otdf-04</id>
+   <content type="html">&lt;p&gt;Long time no see! I was busy with my studies but now I have some free time and I decided to spend it on OTDF, here’s what I have accomplished during the last few days:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;fixed many bugs with enemies movement&lt;/li&gt;
+	&lt;li&gt;polished player movement - now he will always stop exactly in front of the enemy after attack&lt;/li&gt;
+	&lt;li&gt;Added new types of enemies with multiple lives and attack patterns&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Below you can see a video presenting those changes:&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+	&lt;video controls=&quot;&quot;&gt;
+		&lt;source src=&quot;/assets/movies/otdf/otdf-color-enemies.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+		Your browser does not support the HTML5 video tag. Ditch your IE and join the Firefox or Chrome master race!
+	&lt;/video&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve been also trying to implement blood with particle effects, but they look like shit so I’ll probably just use animated gifs instead.&lt;/p&gt;
+
+&lt;p&gt;I have a hard time deciding what to do next. Everything is very basic, but playable now. I “just” need to do is add graphics, music, menu, achievements, some special effects and I am ready to upload on android market. I’ll probably focus on graphics now because I can’t wait to see animations in action.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>One Tap Death Finger, DevLog &#35;03</title>
