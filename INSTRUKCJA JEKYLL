@@ -1,7 +1,11 @@
 NOWA INSTRUKCJA:
- 
-* JEKYLL BUILD
-* JEKYLL SERVE
+
+* sciagnac ruby installer i zainstalowac (zaznaczyc, zeby dodal do PATH co trzeba)
+* w przypadku bugow, bo ruby ssie: http://stackoverflow.com/a/27641786/1644096
+* odpalic bundle update
+
+* bundle exec jekyll build
+* bundle exec jekyll serve
 
 
 
@@ -10,7 +14,7 @@ NOWA INSTRUKCJA:
 
 
 
-
+-- tutaj nie patrz juz
 
 INSTRUKCJA DLA UBUNTU:
 
